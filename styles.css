@@ -1,0 +1,115 @@
+/* Overal Layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0e0b2c79;
+    color: #f5f2f2;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background-color: #050429b9;
+    color: #fff;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    font-size: 1.6rem;
+}
+
+/* Nav */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+.nav-links a:hover {
+    background-color: #273243;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 2.2rem;
+    margin-bottom: 16px;
+    color: #2b4c7e;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    margin-bottom: 28px;
+    color: #2b4c7e;
+
+}
+
+.button {
+    display: inline-block;
+    background-color: #f28c28;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #d9761a;
+}
+
+/* Footer */
+footer {
+    background-color: #050429b9;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer h2 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    margin-top: 8px;
+}
