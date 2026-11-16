@@ -121,6 +121,10 @@ footer h2 {
     gap: 20px;
 }
 
+.skill-offerings {
+    padding-bottom: 80px;
+}
+
 .skill-card {
     background-color: #050429b9;
     border: 1px solid #ddd;
@@ -129,6 +133,14 @@ footer h2 {
     gap:8px;
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.skill-card .title {
+    background-color: white;
+    margin: -20px -20px 0 -20px;
+    padding: 8px 20px;
+    border-bottom: 1px solid #ddd;
 }
 
 .skill-card:hover {
