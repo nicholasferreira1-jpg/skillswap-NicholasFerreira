@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skill Swap</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <h1>Skill Swap</h1>
@@ -15,7 +17,7 @@
                 <li><a href="#">Browse Skills</a></li>
                 <li><a href="#">Offer Skills</a></li>
                 <li><a href="#">About</a></li>
-            
+
             </ul>
         </nav>
     </header>
@@ -27,24 +29,38 @@
         </section>
         <section class="skill-offerings">
             <h2>Most Searched Skills</h2>
-             <article class="skill-card">
-                <h3>Web Design</h3>
-                <p>Tutor: Name</p>
-                <p>$20/hour · In-person</p>
-            </article>
+            <div class="skill-grid">
+                <article class="skill-card">
+                    <h3 class="title">Web Design</h3>
+                    <p class="description">Build your first website with HTML and CSS.</p>
+                    <p class="price">$20/hour</p>
+                    <p class="provider-name">Tutor: Name</p>
+                    <div class="format-badges">
+                        <span class="badge">✓ In-person</span>
+                        <span class="badge">✓ Virtual</span>
+                    </div>
+                </article>
 
-            <article class="skill-card">
-                <h3>Organic Chemistry</h3>
-                <p>Tutor: Name</p>
-                <p>$25/hour · Virtual</p>
-            </article>
+                <article class="skill-card">
+                    <h3 class="title">Chemistry</h3>
+                    <p class="description">Work through reaction mechanisms and synthesis problems</p>
+                    <p class="price">$25/hour</p>
+                    <p class="provider-name">Tutor: Name</p>
+                    <div class="format-badges">
+                        <span class="badge">✓ In-person</span>
+                    </div>
+                </article>
 
-            <article class="skill-card">
-                <h3>Spanish</h3>
-                <p>Tutor: Placeholder Name</p>
-                <p>$15/hour · Both</p>
-            </article>
-            
+                <article class="skill-card">
+                    <h3 class="title">Spanish</h3>
+                    <p class="description">Conversation practice and grammar help</p>
+                    <p class="price">$15/hour</p>
+                    <p class="provider-name">Tutor: Name</p>
+                    <div class="format-badges">
+                        <span class="badge">✓ Virtual</span>
+                    </div>
+                </article>
+            </div>
         </section>
 
     </main>
@@ -61,4 +77,5 @@
     </footer>
     <script src="script.js"></script>
 </body>
+
 </html>
